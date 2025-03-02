@@ -71,41 +71,41 @@ if (userAge >= 18) {
 */
 
 // 7. String manipulation exercises
-console.log("\nString manipulation exercises:");
-const challenge = "30 Days Of JavaScript";
-console.log("Original string:", challenge);
+// console.log("\nString manipulation exercises:");
+// const challenge = "30 Days Of JavaScript";
+// console.log("Original string:", challenge);
 
-// Convert to uppercase
-console.log("Uppercase:", challenge.toUpperCase());
+// // Convert to uppercase
+// console.log("Uppercase:", challenge.toUpperCase());
 
-// Convert to lowercase
-console.log("Lowercase:", challenge.toLowerCase());
+// // Convert to lowercase
+// console.log("Lowercase:", challenge.toLowerCase());
 
-// Slice out the first word
-console.log("First word sliced:", challenge.slice(0, 2));
+// // Slice out the first word
+// console.log("First word sliced:", challenge.slice(0, 2));
 
-// Slice out "Days Of JavaScript"
-console.log("Sliced phrase:", challenge.slice(3));
+// // Slice out "Days Of JavaScript"
+// console.log("Sliced phrase:", challenge.slice(3));
 
-// Check if string contains "Script"
-console.log("Contains 'Script'?", challenge.includes("Script"));
+// // Check if string contains "Script"
+// console.log("Contains 'Script'?", challenge.includes("Script"));
 
-// Find position of first 'a'
-console.log("Position of first 'a':", challenge.indexOf("a"));
+// // Find position of first 'a'
+// console.log("Position of first 'a':", challenge.indexOf("a"));
 
-// Find position of last 'a'
-console.log("Position of last 'a':", challenge.lastIndexOf("a"));
+// // Find position of last 'a'
+// console.log("Position of last 'a':", challenge.lastIndexOf("a"));
 
-// Find position of first "because"
-const sentence =
-  "You cannot end a sentence with because because because is a conjunction";
-console.log("Position of first 'because':", sentence.indexOf("because"));
+// // Find position of first "because"
+// const sentence =
+//   "You cannot end a sentence with because because because is a conjunction";
+// console.log("Position of first 'because':", sentence.indexOf("because"));
 
-// Use startsWith()
-console.log("Starts with '30 Days'?", challenge.startsWith("30 Days"));
+// // Use startsWith()
+// console.log("Starts with '30 Days'?", challenge.startsWith("30 Days"));
 
-// Use endsWith()
-console.log("Ends with 'JavaScript'?", challenge.endsWith("JavaScript"));
+// // Use endsWith()
+// console.log("Ends with 'JavaScript'?", challenge.endsWith("JavaScript"));
 
 // 8. Generate random number between 0 and 100
 const randomNum = Math.floor(Math.random() * 101);
